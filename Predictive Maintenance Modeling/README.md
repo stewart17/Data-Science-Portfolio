@@ -1,6 +1,4 @@
-# READ ME
-
-## Predictive Maintenance Model Build
+# Predictive Maintenance Model Build
 
 Any industrial enterprise must grapple with an interminable and ever-pressing problem: equipment fails. Across any industry, the problem of equipment failure is a problem that requires facing. In the realm of industrial production, prolonging the lifecycle of equipment is of the upmost importance. Next to prolonging the lifecycle, being able to predict when equipment will fail enables one to anticipate its failure and prepare for its replacement as quickly as possible. This ensures minimal downtime and maximal production. To this end, using predictive analytics to predict when a machine will fail is an extremely appealing solution to the problem of equipment failure. Using data gathered by sensors and meters on the equipment itself, one can predict the chances that any machine will fail at any given moment in time. While this solution can be seen to be appealing to a variety of industries, it is most applicable and directly helpful in manufacturing industries for whom unexpected equipment failure can lead to disastrous hold ups in production and output. 
 
