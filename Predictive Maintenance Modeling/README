@@ -1,0 +1,11 @@
+# READ ME
+
+## Predictive Maintenance Model Build
+
+Any industrial enterprise must grapple with an interminable and ever-pressing problem: equipment fails. Across any industry, the problem of equipment failure is a problem that requires facing. In the realm of industrial production, prolonging the lifecycle of equipment is of the upmost importance. Next to prolonging the lifecycle, being able to predict when equipment will fail enables one to anticipate its failure and prepare for its replacement as quickly as possible. This ensures minimal downtime and maximal production. To this end, using predictive analytics to predict when a machine will fail is an extremely appealing solution to the problem of equipment failure. Using data gathered by sensors and meters on the equipment itself, one can predict the chances that any machine will fail at any given moment in time. While this solution can be seen to be appealing to a variety of industries, it is most applicable and directly helpful in manufacturing industries for whom unexpected equipment failure can lead to disastrous hold ups in production and output. 
+
+This project seeks to create such a model. Using a dataset containing information on a plethora of milling machines—including air temperature, torque, tool wear, etc—I build a random forest model to predict whether a machine will fail or continue running. I evaluate the model using F1 scores and Matthews' Correlation Coefficient, two metrics which are good at measuring success of imbalanced datasets. 
+
+I begin with importing the data and conducting a series of visualizations and correlation analyses on the data. After cleaning the data, I split it into a test and train set. I build an initial model then tune it using a randomized search and a grid search. After evaluating the final model and finding the results acceptable, I do a cross-validation to verify that the model will perform well on unseen data. 
+
+While the model was only trained on a particular milling machine, the result of this project demonstrate the possibility of building similar models for a variety of manufacturing machines.
