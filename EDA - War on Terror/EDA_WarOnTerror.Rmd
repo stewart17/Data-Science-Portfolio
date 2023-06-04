@@ -1,6 +1,5 @@
 ---
 title: "What Effect Does the War on Terror Have On Terrorism?"
-subtitle: "Final Project"
 author: "Stewart Wilson"
 date: "`r Sys.Date()`"
 output: pdf_document
