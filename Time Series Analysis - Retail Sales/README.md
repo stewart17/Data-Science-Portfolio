@@ -1,0 +1,3 @@
+# Retail Sales Time Series Analysis
+I am tasked with creating a predictive model from time series data. Particualry, I must build a model to predict the last 12 month's sales for a given retail company. Time series data can be tricky with, particularly when it has seasonality and trends. 
+The SARIMAX model I built was reasonably able to forecase the monthly sales. The RMSE was 25,215.49, which while high, is representative of the scale of the data, which is in the hundreds of thousands. To better improve the model I would need to get better at tuning the different hyperparameters of the SARIMAX model. I only focused on order and seasonal_order, but I would need to expand my focus on the other hyperparamters provided by the statsmodel package. 
